@@ -64,7 +64,7 @@ nav li:hover {
 ul {
   list-style-type: none;
   text-decoration: none;
-  padding: 0px;
+  padding: 0;
 }
 
 li {
@@ -99,7 +99,7 @@ a:active {
 
 /* LOGO */
 #logo {
-  padding: 44px 0px 53px 55px;
+  padding: 44px 0 53px 55px;
 }
 .img_size {
   width: 100%;
@@ -110,7 +110,7 @@ a:active {
 
 form input {
   font-weight: bold;
-  padding: 0px 0px 0px 15px;
+  padding-left: 15px;
   height: 48px;
   width: 230px;
   border-left: none;
@@ -140,10 +140,10 @@ form input {
 }
 
 .main_title {
-  margin: 0px;
+  margin: 0;
 }
 .secondary_title {
-  margin: 8px 0px;
+  margin: 8px 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
@@ -231,7 +231,7 @@ form input {
 /* HEBERGEMENT */
 
 #hebergement_main__title {
-  margin: 42px 0px 23px 0;
+  margin: 42px 0 23px 0;
   padding-left: 50px;
 }
 
@@ -260,7 +260,7 @@ form input {
 }
 
 .hebergement_wrapper__container {
-  margin: 0px 40px;
+  margin: 0 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -275,7 +275,7 @@ form input {
   width: 30%;
 }
 .hebergement_box__content {
-  margin: 0px 0px 5px 16px;
+  margin: 0 0 5px 16px;
 }
 
 .hebergement_box__title {
@@ -303,7 +303,7 @@ form input {
 }
 
 .populaire_wrapper__container {
-  margin: 0px 40px 0px 37px;
+  margin: 0 40px 0 37px;
   display: flex;
   flex-direction: column;
 }
@@ -355,7 +355,7 @@ form input {
 
 .activite_wrapper__container {
   display: flex;
-  gap: 64px;
+  gap: 65px;
 }
 
 .activite_wrapper__box {
@@ -365,7 +365,7 @@ form input {
 }
 
 .activite_content__info {
-  padding: 10px 0px 0 19px;
+  padding: 10px 0 0 19px;
 }
 
 #activite_main__title {
@@ -467,7 +467,7 @@ footer {
 
 @media (max-width: 992px) {
   .populaire_wrapper__container {
-    margin: 0px 40px 0px 37px;
+    margin: 0 40px 0 37px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -504,7 +504,7 @@ footer {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: start;
-    padding: 12px 10px 0px 12px;
+    padding: 12px 10px 0 12px;
   }
 }
 
@@ -602,7 +602,7 @@ footer {
     background-color: #0065fc;
     color: white;
     border: 1px solid #0065fc;
-    border-radius: 0px 15px 15px 0px;
+    border-radius: 0 15px 15px 0;
   }
 
   #filtre_title {
@@ -613,7 +613,7 @@ footer {
   .filtre_child p {
     font-size: 11px;
     margin-top: 20px;
-    padding: 0px 0px;
+    padding: 0;
   }
 
   .filtre_child {
@@ -635,7 +635,7 @@ footer {
     width: 100vw;
     margin-left: 50%;
     transform: translateX(-50%);
-    border-radius: 0px;
+    border-radius: 0;
   }
   .populaire_wrapper__container {
     flex-direction: column;
