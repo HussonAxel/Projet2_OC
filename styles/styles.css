@@ -355,16 +355,17 @@ form input {
 
 .activite_wrapper__container {
   display: flex;
-  justify-content: space-between;
+  gap: 64px;
 }
 
 .activite_wrapper__box {
   box-shadow: 0 0 15px var(--grey);
   border-radius: 20px 20px 20px 20px;
+  height: 450px;
 }
 
 .activite_content__info {
-  padding: 21px 0px 20px 19px;
+  padding: 10px 0px 0 19px;
 }
 
 #activite_main__title {
@@ -526,6 +527,7 @@ footer {
   .activite_wrapper__box {
     max-width: 200px;
     width: 25%;
+    height: 280px;
   }
 }
 @media (max-width: 992px) {
